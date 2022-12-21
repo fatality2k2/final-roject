@@ -1,0 +1,26 @@
+.notification-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.notification-list {
+  list-style: none;
+  padding: 0;
+}
+
+.notification {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.notification h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.notification p {
+  font-size: 14px;
+  margin: 0;
+}

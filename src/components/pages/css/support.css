@@ -1,0 +1,42 @@
+.support-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.support-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.support-option {
+  flex: 0 0 calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.support-option h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.support-option p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.support-option a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.support-option a:hover {
+  background-color: #ddd;
+  color: #fff;
+}

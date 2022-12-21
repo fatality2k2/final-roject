@@ -1,0 +1,26 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

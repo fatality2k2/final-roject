@@ -1,13 +1,327 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.pet-first-App {
+  font-family: "gothic";
+  text-align: center;
+  position: relative;
+  height: 100vh;
+
+  color: #ebe3cc;
+}
+
+/* FONTS */
+
+/* REUSABLE */
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+/* HEADER */
+
+.main_header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.header_button {
+  margin-top: 20px;
+  font-family: "gothic";
+  border: none;
+  background-color: inherit;
+  padding: 11px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  border-radius: 60px;
+}
+.header_button:hover {
+  background-color: #ed5c01;
+  color: white;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+}
+.pet {
+  margin-top: 20px;
+  width: 33%;
+}
+.middle {
+  width: 33%;
+}
+.sign_up {
+  margin-top: 20px;
+  width: 33%;
+}
+.pet_first {
+  border: none;
+  background-color: inherit;
+  padding: 11px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 60px;
+}
+.pet_first:hover {
+  background-color: #ed5c01;
+  color: white;
+}
+.sign_up_button {
+  background-color: inherit;
+  border-style: solid;
+  border-color: white;
+  padding: 11px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border-radius: 60px;
+}
+.sign_up_button:hover {
+  background-color: #ed5c01;
+  color: white;
+  border-color: #ed5c01;
+}
+
+/* BANNER 1 LEARN MORE */
+.box1 {
+  height: 500px;
+  width: 50%;
+  color: #ed5c01;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-weight: bold;
+}
+.box33 {
+  line-height: 10%;
+}
+.learnMoreButton {
+  border-radius: 40px;
+  background-color: #ed5c01;
+  border: none;
+  font-family: "gothic";
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.learnMoreButton:hover {
+  background-color: #ebe3cc;
+  color: black;
+}
+.logo_arrow {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.arrow {
+  width: 70px;
+}
+.available {
+  font-size: 20px;
+  color: #189cab;
+}
+.pet-first {
+  font-family: "glaceRegular";
+  color: #062d3e;
+}
+.wellness {
+  color: #062d3e;
+  font-family: "glaceRegular";
+}
+
+/* BANNER 1 SLIDESHOW */
+
+/* BANNER 2*/
+
+.banner2_container {
+  height: 260px;
+  width: 100%;
+  background-color: #ed5c01;
+}
+.image_banner2 {
+  height: 260px;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.img45 {
+  width: 220px;
+}
+.allDogs {
+  height: 260px;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dogs {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dogs2 {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rabbit {
+  width: 90px;
+  height: 80px;
+  opacity: 0.6;
+  position: absolute;
+  border-width: 3px;
+  border-radius: 50%;
+}
+.rabbit:hover {
+  opacity: 1;
+}
+.oneDog {
+  height: 260px;
+  width: 15%;
+}
+.textDogs {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.middleImage {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+}
+.middleDogImg {
+  width: 140px;
+  height: 135px;
+  border-width: 4px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+}
+
+/* BANNER 3 */
+
+.banner3 {
+  height: 550px;
+  width: 100%;
+  background-color: #ebe3cc;
+}
+.ourService {
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebe3cc;
+}
+.ourService p {
+  font-size: 20px;
+  color: #062d3e;
+}
+.flexF {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.parallelogram {
+  width: 40%;
+  height: 400px;
+  transform: skew(-13deg);
+  background-color: #ebe3cc;
+  border-radius: 50px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parallelogram:hover {
+  background-color: #fbbd08;
+  border-color: #ebe3cc;
+}
+.parallelogram2 {
+  width: 40%;
+  height: 400px;
+  transform: skew(-13deg);
+  background-color: #ebe3cc;
+  border-radius: 50px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parallelogram2:hover {
+  background-color: #fbbd08;
+  border-color: #ebe3cc;
+}
+.explore_button {
+  background-color: inherit;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-style: solid;
+  border-color: #062d3e;
+  cursor: pointer;
+  display: inline-block;
+  color: #062d3e;
+  border-radius: 60px;
+  display: flex;
+  align-items: left;
+}
+.explore {
+  transform: skew(13deg);
+}
+.sourceP {
+  font-family: sans-serif;
+  width: 430px;
+  color: #062d3e;
+  text-align: left;
+}
+.sourcePh {
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 430px;
+  color: #062d3e;
+  text-align: left;
+}
+.sourceImage {
+  background-color: #fbbd08;
+  width: 90px;
+  height: 80px;
+  border-width: 3px;
+  border-radius: 50%;
+  display: flex;
+  align-items: left;
+}
+
+@media screen and (max-width: 650px) {
+  .someGuyImage {
+    display: none;
+  }
+  .servicesBorder {
+    margin-left: 30%;
+  }
 }

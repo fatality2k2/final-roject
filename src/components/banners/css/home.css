@@ -1,0 +1,201 @@
+.box-grid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.servicesText {
+  font-family: "pooppins";
+  font-size: 45px;
+  text-align: left;
+  color: #3a408c;
+}
+.servicesBorder {
+  height: 450px;
+  background-color: #f8f8f8;
+}
+.servicesAltText {
+  font-family: "pooppinsmedium";
+  font-size: 15px;
+  text-align: left;
+  color: grey;
+}
+.servicesBorder button {
+  background-color: #e2342d;
+  border-style: none;
+  padding: 15px;
+  width: 180px;
+  color: white;
+}
+.someGuyImageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.someGuyImage {
+  width: 70%;
+}
+.boxNewProducts {
+  font-size: 45px;
+  height: 100px;
+  font-family: "pooppins";
+  color: #e2342d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxNewProductsSpan2 {
+  margin-left: 11px;
+  color: #004197;
+}
+.imageProduct {
+  margin-top: 50px;
+  width: 70%;
+}
+.imageBoxProduct {
+  padding: 10px;
+  height: 400px;
+  margin: 0px 10px 0px 10px;
+  background-color: #f8f8f8;
+}
+.titleNewProduct {
+  font-family: "pooppins";
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-grid a:link {
+  text-decoration: none;
+  color: black;
+}
+.box-grid a:visited {
+  text-decoration: none;
+  color: black;
+}
+.box-grid a:hover {
+  text-decoration: none;
+  color: #e2342d;
+}
+.box-grid a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.weeklyDiscover {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.boxWeeklyProducts {
+  font-size: 25px;
+  height: 15%;
+  font-family: "pooppins";
+  color: #e2342d;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.boxWeeklyProducts2 {
+  margin-left: 11px;
+  color: #4a4b4d;
+}
+.boxWeeklyProducts button {
+  font-size: 15px;
+  background-color: #e2e3e6;
+  border-style: none;
+  padding: 10px;
+  width: 150px;
+  color: grey;
+}
+
+.weeklyImage {
+  width: 70%;
+}
+.weeklyImage img {
+  width: 100%;
+}
+.weeklyColumn {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+.weeklyImageBoxProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  margin: 0px 20px 0px 20px;
+  background-color: #f8f8f8;
+}
+.titleWeeklyProduct {
+  font-family: "pooppins";
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-grid-weekly a:link {
+  text-decoration: none;
+  color: black;
+}
+.box-grid-weekly a:visited {
+  text-decoration: none;
+  color: black;
+}
+.box-grid-weekly a:hover {
+  text-decoration: none;
+  color: #e2342d;
+}
+.box-grid-weekly a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.box-grid-weekly p:hover {
+  text-decoration: none;
+  color: black;
+}
+.lineThroughProduct {
+  text-decoration: line-through;
+  color: black;
+  font-family: "pooppins";
+  margin-left: 10px;
+  font-size: 15px;
+}
+.lineThroughProduct1 {
+  color: black;
+  font-family: "pooppins";
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  .servicesText {
+    font-size: 31px;
+  }
+  .servicesAltText {
+    display: none;
+  }
+  .imageProduct {
+    width: 100%;
+  }
+  .someGuyImage {
+    width: 100%;
+  }
+}
+.justShop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

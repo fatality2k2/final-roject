@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Routespage from "./components/sidemenu/Routespage";
+import { Navbar } from "./components/sidemenu/Navbar";
+import { Box, Stack } from "@mui/system";
+import Footer from "./components/banners/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Box px={3}>
+      <Stack
+        sx={{
+          flexDirection: { xs: "column", md: "row" },
+          justifyContent: "flex-start",
+        }}
+      >
+        <Navbar />
+        <Box
+          sx={{
+            width: "100%",
+            height: "100%",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Routespage />
+        </Box>
+      </Stack>
+      <Footer />
+    </Box>
   );
 }
 

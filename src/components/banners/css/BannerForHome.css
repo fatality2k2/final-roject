@@ -1,0 +1,56 @@
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imageBoxProduct {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+
+.imageProduct {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.titleNewProduct {
+  text-align: center;
+  font-size: 10px;
+
+  margin-left: 10px;
+}
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-container {
+  -ms-overflow-style: none;
+}
+.prev-button,
+.next-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev-button {
+  left: -50px;
+}
+
+.next-button {
+  right: -50px;
+}
+
+.slider-container {
+  position: relative;
+}

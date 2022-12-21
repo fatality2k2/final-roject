@@ -1,0 +1,11 @@
+.about-us-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-content {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
