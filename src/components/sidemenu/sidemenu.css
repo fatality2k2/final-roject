@@ -82,6 +82,18 @@ a {
 .logo {
   width: 100%;
 }
+input {
+  width: 80%;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+}
+.profile {
+  cursor: pointer;
+}
+.logo {
+  width: 100%;
+}
 ul {
   display: flex;
   flex-direction: column;
@@ -96,16 +108,26 @@ a {
   text-decoration: none;
   color: black;
 }
-
-.logo {
-  width: 100%;
+et_header_style_left #et-top-navigation nav > ul > li > a,
+.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a {
+  padding-bottom: 15px;
 }
-input {
-  width: 80%;
-  border-radius: 5px;
+li {
+  padding-right: 5px;
+}
+li a {
   padding: 5px;
-  color: black;
 }
-.profile {
-  cursor: pointer;
+li a:hover,
+li li a:hover {
+  color: #fff !important;
+}
+li a:hover {
+  background: #559cad !important;
+}
+li.current-menu-item > a {
+  background: #edc77b; /*** CHANGES THE BACKGROUND COLOR OF THE CURRENT PAGE LINK ***/
+}
+.menu-item-has-children > a:first-child:after {
+  content: none;
 }

@@ -8,7 +8,7 @@ const ServiceBanner = () => {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2} columns={16}>
         <Grid className="servicesBorder" xs={8}>
-          <p className="servicesText">
+          <p className="servicesText" style={{ marginTop: "100px" }}>
             PROVIDING SERVICES <br />
             AT YOUR DOOR
           </p>
@@ -22,7 +22,7 @@ const ServiceBanner = () => {
             <br />
             can.
           </p>
-          <button>LEARN MORE</button>
+          <button style={{ cursor: "pointer" }}>LEARN MORE</button>
         </Grid>
         <Grid className="someGuyImageBox" xs={8}>
           <img
